@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>yslowPhantomjs</id>
+        <version>1.0.0</version>
+        <authors>Marcel Duran</authors>
+        <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+        <projectUrl>http://yslow.org/phantomjs/</projectUrl>
+        <iconUrl>http://d.yimg.com/jc/ydn/speedometer.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>yslow.js library to run in Phantomjs</description>
+        <releaseNotes />
+        <copyright />
+        <tags>yslow performance wpo PhantomJS headless browser console UI web testing</tags>
+        <dependencies>
+            <dependency id="PhantomJS" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\install.ps1" target="tools\install.ps1" />
+        <file src="tools\uninstall.ps1" target="tools\uninstall.ps1" />
+        <file src="tools\yslow.js" target="tools\yslow.js" />
+    </files>
+</package>
