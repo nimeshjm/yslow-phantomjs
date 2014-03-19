@@ -4,6 +4,7 @@
         <id>yslowPhantomjs</id>
         <version>1.0.0</version>
         <authors>Marcel Duran</authors>
+        <owners>Nimesh Manmohanlal</owners>
         <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
         <projectUrl>http://yslow.org/phantomjs/</projectUrl>
         <iconUrl>http://d.yimg.com/jc/ydn/speedometer.png</iconUrl>
